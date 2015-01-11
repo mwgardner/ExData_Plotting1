@@ -1,5 +1,4 @@
 exploreDataPlot1 <- function() {
-    # reads in variable descriptions and activity descriptions
     # working directory should include a "data" folder that contains the
     # household_power_consumption.txt file
     if(!file.exists("data")) {
